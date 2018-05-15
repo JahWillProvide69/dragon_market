@@ -4,7 +4,7 @@
 
 body
 {
-  /*background-image: url("images/bg-body.png");*/
+  /* background-image: url("../images/bg-body.png"); */
   background: rgba(13, 36, 67, 0.2);
   background-repeat: repeat;
   font-family: 'Roboto', sans-serif;
@@ -17,6 +17,19 @@ body
 header
 {
   margin-top: 4.95rem;
+}
+
+#registro_box
+{
+  margin:auto;
+}
+
+.registro_titulo{
+  text-align: center;
+}
+
+.titulos{
+  text-align: center;
 }
 
 .navbar-custom
@@ -144,11 +157,11 @@ p.card-text
 {
   font-family: 'FontAwesome';
   content: "\f068";
-  float: right; 
+  float: right;
 }
 
 .accordion .card-header.collapsed:after
 {
   /* symbol for "collapsed" panels */
-  content: "\f067"; 
+  content: "\f067";
 }
