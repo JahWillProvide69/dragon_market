@@ -1,0 +1,178 @@
+* { box-sizing: border-box; }
+
+.clearfix { clear: both; }
+
+body
+{
+  /*background-image: url("images/bg-body.png");*/
+  background-repeat: repeat;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  justify-content: center;
+  padding-top: 20px;
+  margin: auto;
+}
+
+header
+{
+  margin-top: 4.95rem;
+}
+
+.navbar-custom
+{
+  background-color: #0d2443;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text
+{
+  color: rgba(255,255,255,1);
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link
+{
+  color: rgba(255,255,255,1);
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link
+{
+  /*color: #ffffff;*/
+  color: rgba(255,255,255,0.5);
+}
+
+/* for dropdown only - change the color of dropdown */
+.navbar-custom .dropdown-menu
+{
+  /*background-color: #ff5500;*/
+  color: rgba(255,255,255,1);
+}
+.navbar-custom .dropdown-item
+{
+  /*color: #ffffff;*/
+  color: rgba(255,255,255,1);
+}
+
+.navbar-custom .dropdown-item:hover,
+.navbar-custom .dropdown-item:hover,
+.navbar-custom .dropdown-item:focus
+{
+  color: rgba(255,255,255,0.5);
+  /*color: #333333;*/
+  background-color: rgba(255,255,255,0.5);
+}
+
+div.container
+{
+  /*margin-left: 0;
+  margin-right: 0;*/
+  justify-content: space-around;
+  max-width: 85%;
+}
+
+.productos
+{
+  margin-top: 30px;
+}
+
+div.card-deck
+{
+  margin: 0;
+}
+
+.renglon
+{
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin-top: 20px;
+}
+
+footer
+{
+  display: flex;
+  /*flex-wrap: wrap;*/
+  position: relative;
+  margin-top: 30px;
+  height: 100px;
+  /*background-color: #0d2443;*/
+}
+
+.cajasFooter
+{
+  /*margin: 10px auto;*/
+  /*width: 80%;*/
+  height: 100px;
+  background-color: #0d2443;
+  /*background-color: #E7F6F6;*/
+  /*border: 1px solid #99cccc;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenidoAuto
+{
+width: 80%;
+color: white;
+/*height: 100px;*/
+/*margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 20px;
+margin-right: 20px;*/
+}
+
+.contenido
+{
+  padding: 80px;
+  color: white;
+}
+
+div.container-fluid
+{
+  margin: 0;
+ }
+
+.redesLogos
+{
+  display: inline-block;
+  /*padding: 0;*/
+}
+
+.card ul li
+{
+  line-height: 90%;
+}
+
+img.seisproductos
+{
+  /*max-width: 85%;
+  margin: auto;*/
+}
+
+h5.card-title
+{
+  font-size: 1em;
+}
+
+p.card-text
+{
+  font-size: 1em;
+}
+
+.accordion .card-header:after
+{
+  font-family: 'FontAwesome';
+  content: "\f068";
+  float: right; 
+}
+
+.accordion .card-header.collapsed:after
+{
+  /* symbol for "collapsed" panels */
+  content: "\f067"; 
+}
