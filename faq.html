@@ -1,224 +1,219 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <title>FAQ - Dragon Market - Equipos y Componentes para Gamers</title>
+</head>
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" 
-      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/estilos.css">
-    <title>FAQ - Dragon Market - Equipos y Componentes para Gamers</title>
-  </head>
-
-  <body>
+<body>
 <!-- LINKS & BUSCADOR -->
-    <header>
-    <!-- NOS FALTA UN H1 O ALGO SIMILAR PARA POSICIONAR EN BUSCADORES -->
-    <!-- Custom navbar-color -->
-    <div class="container-fluid">
-      <nav class="navbar navbar-expand-md fixed-top navbar-light navbar-custom">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar5">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="index.html">
-          <img src="images/DMHead.png" alt="Logo" style="width: 50px;">
-        </a>
-        <div class="navbar-collapse collapse justify-content-stretch" id="navbar5">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-                            <a class="nav-link" href="ingreso.html">Ingreso</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="registro.html">Registro</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="faq.html">FAQ</a>
-            </li>
-          </ul>
-          <form class="form-inline" style="margin-left: auto;">
-            <div class="md-form my-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="buscar ..." aria-label="Search">
-            </div>
-          </form>
-        </div>
-      </nav>
-    </header>
+  <header class "container-fluid">
+  <!-- NOS FALTA UN H1 O ALGO SIMILAR PARA POSICIONAR EN BUSCADORES -->
+  <!-- Custom navbar-color -->
+    <nav class="navbar navbar-expand-md fixed-top navbar-light navbar-custom">
+      <button class="navbar-toggler navbar-toggler-right" 
+        type="button" data-toggle="collapse" data-target="#navbar5">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">
+        <img src="images/DMHead.png" alt="Logo" style="width: 50px;">
+      </a>
+      <div class="navbar-collapse collapse justify-content-stretch" id="navbar5">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="ingreso.html">Ingreso</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="registro.html">Registro</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="faq.html">FAQ</a>
+          </li>
+        </ul>
+        <form class="form-inline" style="margin-left: auto;">
+          <div class="md-form my-0">
+            <input class="form-control mr-sm-2" type="text"
+            placeholder="buscar ..." aria-label="Search">
+          </div>
+        </form>
+      </div>
+    </nav>
+  </header>
 
   <!-- CAROUSEL -->
-    <div id="demo" class="carousel slide" data-ride="carousel">
+  <div id="demo" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
-      <ul class="carousel-indicators">
-        <li data-target="#demo" data-slide-to="0" class="active"></li>
-        <li data-target="#demo" data-slide-to="1"></li>
-        <li data-target="#demo" data-slide-to="2"></li>
-      </ul>
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
     <!-- The slideshow -->
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="images/slide1.jpg" alt="slide1" style="width:100%;">
-        </div>
-        <div class="carousel-item">
-          <img src="images/slide2.jpg" alt="slide2" style="width:100%;">
-        </div>
-        <div class="carousel-item">
-          <img src="images/slide3.jpg" alt="slide3" style="width:100%;">
-        </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/slide1.jpg" alt="slide1" style="width:100%;">
       </div>
+      <div class="carousel-item">
+        <img src="images/slide2.jpg" alt="slide2" style="width:100%;">
+      </div>
+      <div class="carousel-item">
+        <img src="images/slide3.jpg" alt="slide3" style="width:100%;">
+      </div>
+    </div>
     <!-- Left and right controls -->
-      <a class="carousel-control-prev" href="#demo" data-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </a>
-      <a class="carousel-control-next" href="#demo" data-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </a>
-    </div>
-    <!-- CIERRO CAROUSEL -->
-    </div>
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+  <!-- CIERRO CAROUSEL -->
 
     <!-- Abro container FAQ -->
-
-<div class="container">
+  <div class="container">
     <div id="accordion" class="accordion" style="margin-top: 30px;">
-        <div class="card mb-0">
-
-            <div class="card-header collapsed" data-toggle="collapse" href="#faq01">
-                <a class="card-title">¿CUÁLES SON LAS FORMAS DE PAGO DISPONIBLES?</a>
-            </div>
-            <div id="faq01" class="card-body collapse" data-parent="#accordion" >
-                <p><span>Mercado Pago</span><br>
-                    Tarjeta de crédito (Mercado pago) <a href="https://www.mercadopago.com.ar/cuotas" target="_blank">Ver promociones vigentes</a><br>
-                    Rapi Pago (Mercado pago) <a href="https://www.mercadopago.com.ar/cuotas" target="_blank">Ver promociones vigentes</a></p><p><span>En nuestra sucursal actualmente se puede abonar con las tarjetas:</span><br>
-                    Visa, Visa Electrón, MasterCard, Argencard, Lider, Maestro, Amex, Cabal, Cabal24, Diners, Italcred, Shopping, Naranja, Nativa, Nativa MC, CMR Falabella, Cencosud, Argenta.
-                </p>
-            </div>
-            <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#faq02">
-                <a class="card-title">¿CUÁL ES EL COSTO DE ENVÍO?</a>
-            </div>
-            <div id="faq02" class="card-body collapse" data-parent="#accordion" >
-                <p>El costo de envío varía en función de la distancia entre el destino y la Capital Federal. Podrá calcular el costo al momento de agregar el producto al carrito de compras. Puede acceder al envío gratis si la compra supera los $1.499. Los envíos se realizan a través de OCA.
-                </p>
-            </div>
-
-            <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#faq03">
-                <a class="card-title">¿CUÁL ES LA GARANTÍA DE LOS PRODUCTOS?</a>
-            </div>
-            <div id="faq03" class="card-body collapse" data-parent="#accordion" >
-                <p>Nuestros productos cuentan con 180 días de garantía una vez efectuada la compra. Sólo cubre un desperfecto del producto relacionado a la fabricación del mismo. En caso de ser productos discontinuados o de oferta no tienen garantía. Para hacer el reclamo por falla del producto escribir a ventas@dragonmarket.com.ar indicando número de pedido, nombre del producto y detalle de la falla del mismo.
-                </p>
-            </div>
-
-            <div class="card-header collapsed" data-toggle="collapse" href="#faq04">
-                <a class="card-title">¿CÓMO ACCEDO AL FLETE GRATIS?</a>
-            </div>
-            <div id="faq04" class="card-body collapse" data-parent="#accordion" >
-                <p>Con cualquier compra superior a $1.499, el costo del envío es bonificado.
-                </p>
-            </div>
-            <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#faq05">
-                <a class="card-title">¿CUÁNTO DEMORA LA ENTREGA DEL PEDIDO?</a>
-            </div>
-            <div id="faq05" class="card-body collapse" data-parent="#accordion" >
-                <p>A partir de la fecha de facturación (esta demora hasta 7 días habiles), la entrega tiene un plazo entre 5 y 12 días hábiles dependiendo la localidad de entrega.
-                </p>
-            </div>
-
-            <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#faq06">
-                <a class="card-title">¿QUÉ SUCEDE SI NADIE RECIBE MI PEDIDO?</a>
-            </div>
-            <div id="faq06" class="card-body collapse" data-parent="#accordion" >
-                <p>Se volverá a envíar una segunda vez. En ambos casos OCA o Urbano dejará una constancia de visita en el domicilio. Si luego de la segunda visita nadie recibe el pedido, este se encontrará por 72 horas en la sucursal de OCA que se detalle en el registro de visita. En caso de Urbano el pedido será devuelto a DRAGON MARKET.
-                </p>
-            </div>
-
-            <div class="card-header collapsed" data-toggle="collapse" href="#faq07">
-                <a class="card-title">¿PUEDE OTRA PERSONA RECIBIR MI PEDIDO?</a>
-            </div>
-            <div id="faq07" class="card-body collapse" data-parent="#accordion" >
-                <p>Sí, como requisito debe ser mayor de 18 años y presentar el DNI.
-                </p>
-            </div>
-            <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#faq08">
-                <a class="card-title">¿CÓMO PUEDO REALIZAR EL CAMBIO DE UN PRODUCTO?</a>
-            </div>
-            <div id="faq08" class="card-body collapse" data-parent="#accordion" >
-                <p>Si desea cambiar el producto recibido debe mantenerlo en perfectas condiciones, con su embalaje original, etiquetas y ticket de compra. Dentro de los 30 días de efectuada la compra puede dirigirse a nuestra sucursal (sujeto a disponibilidad de stock) o mandar un email a ventas@dragonmarket.com.ar indicando el número de pedido. El costo del envío a domicilio por cambio corre por cuenta y cargo del cliente.
-                </p>
-            </div>
-
-            <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#faq09">
-                <a class="card-title">¿TENGO QUE REGISTRARME ANTES DE COMPRAR?</a>
-            </div>
-            <div id="faq09" class="card-body collapse" data-parent="#accordion" >
-                <p>No es necesario, una vez seleccionado y agregado el producto al carrito de compras deberas cargar los datos de entrega, contacto y medio de pago. Luego recibirás un email con la confirmación de tu pedido.
-                </p>
-            </div>
-
-            <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#faq10">
-                <a class="card-title">¿CÓMO PUEDO ACCEDER A MI CEUNTA?</a>
-            </div>
-            <div id="faq10" class="card-body collapse" data-parent="#accordion" >
-                <p>Para ingresar a tu cuenta, deberás ingresar en www.dragonmarket.com.ar y hacer click en el botón Ingreso / Registro, ubicado en el margen superior izquierdo.
-                </p>
-            </div>
-
-            <div class="card-header collapsed" data-toggle="collapse" href="#faq11">
-                <a class="card-title">¿CÓMO RECIBO MI FACTURA?</a>
-            </div>
-            <div id="faq11" class="card-body collapse" data-parent="#accordion" >
-                <p>Tu factura será enviada por correo electrónico y será enviada desde la casilla: ventas@dragonmarket.com.ar
-                </p>
-            </div>
-
-            <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#faq12">
-                <a class="card-title">CÓDIGOS PROMOCIONALES</a>
-            </div>
-            <div id="faq12" class="card-body collapse" data-parent="#accordion" >
-                <p>Los códigos promocionales no se aplican a los productos rebajados. Si has devuelto un pedido en el que se ha utilizado un código promocional, el valor de dicho código no será reembolsado. Los códigos promocionales solo son válidos durante un tiempo determinado.
-                </p>
-            </div>
-
+      <div class="card mb-0">
+        <div class="card-header collapsed" data-toggle="collapse" href="#faq01">
+          <a class="card-title">¿CUÁLES SON LAS FORMAS DE PAGO DISPONIBLES?</a>
         </div>
+        <div id="faq01" class="card-body collapse" data-parent="#accordion" >
+          <p><span>Mercado Pago</span>
+            <br> Tarjeta de crédito (Mercado pago)
+              <a href="https://www.mercadopago.com.ar/cuotas" target="_blank">Ver promociones vigentes
+              </a>
+            <br> Rapi Pago (Mercado pago)
+              <a href="https://www.mercadopago.com.ar/cuotas" target="_blank">Ver promociones vigentes</a>
+          </p>
+          <p><span>En nuestra sucursal actualmente se puede abonar con las tarjetas:
+            </span>
+            <br> Visa, Visa Electrón, MasterCard, Argencard, Lider, Maestro, Amex, Cabal, Cabal24, Diners, Italcred, Shopping, Naranja, Nativa, Nativa MC, CMR Falabella, Cencosud, Argenta.
+          </p>
+        </div>
+
+        <div class="card-header collapsed" data-toggle="collapse" href="#faq02">
+          <a class="card-title">¿CUÁL ES EL COSTO DE ENVÍO?</a>
+        </div>
+        <div id="faq02" class="card-body collapse" data-parent="#accordion" >
+           <p>El costo de envío varía en función de la distancia entre el destino y la Capital Federal. Podrá calcular el costo al momento de agregar el producto al carrito de compras. Puede acceder al envío gratis si la compra supera los $1.499. Los envíos se realizan a través de OCA.
+           </p>
+        </div>
+
+        <div class="card-header collapsed" data-toggle="collapse" href="#faq03">
+          <a class="card-title">¿CUÁL ES LA GARANTÍA DE LOS PRODUCTOS?</a>
+        </div>
+        <div id="faq03" class="card-body collapse" data-parent="#accordion" >
+          <p>Nuestros productos cuentan con 180 días de garantía una vez efectuada la compra. Sólo cubre un desperfecto del producto relacionado a la fabricación del mismo. En caso de ser productos discontinuados o de oferta no tienen garantía. Para hacer el reclamo por falla del producto escribir a ventas@dragonmarket.com.ar indicando número de pedido, nombre del producto y detalle de la falla del mismo.
+          </p>
+        </div>
+
+        <div class="card-header collapsed" data-toggle="collapse" href="#faq04">
+          <a class="card-title">¿CÓMO ACCEDO AL FLETE GRATIS?</a>
+        </div>
+        <div id="faq04" class="card-body collapse" data-parent="#accordion" >
+          <p>Con cualquier compra superior a $1.499, el costo del envío es bonificado.
+          </p>
+        </div>
+        <div class="card-header collapsed" data-toggle="collapse" href="#faq05">
+          <a class="card-title">¿CUÁNTO DEMORA LA ENTREGA DEL PEDIDO?</a>
+        </div>
+        <div id="faq05" class="card-body collapse" data-parent="#accordion" >
+          <p>A partir de la fecha de facturación (esta demora hasta 7 días habiles), la entrega tiene un plazo entre 5 y 12 días hábiles dependiendo la localidad de entrega.
+          </p>
+        </div>
+
+        <div class="card-header collapsed" data-toggle="collapse" href="#faq06">
+          <a class="card-title">¿QUÉ SUCEDE SI NADIE RECIBE MI PEDIDO?</a>
+        </div>
+        <div id="faq06" class="card-body collapse" data-parent="#accordion" >
+          <p>Se volverá a envíar una segunda vez. En ambos casos OCA o Urbano dejará una constancia de visita en el domicilio. Si luego de la segunda visita nadie recibe el pedido, este se encontrará por 72 horas en la sucursal de OCA que se detalle en el registro de visita. En caso de Urbano el pedido será devuelto a DRAGON MARKET.
+          </p>
+        </div>
+
+        <div class="card-header collapsed" data-toggle="collapse" href="#faq07">
+          <a class="card-title">¿PUEDE OTRA PERSONA RECIBIR MI PEDIDO?</a>
+        </div>
+        <div id="faq07" class="card-body collapse" data-parent="#accordion" >
+          <p>Sí, como requisito debe ser mayor de 18 años y presentar el DNI.
+          </p>
+        </div>
+        <div class="card-header collapsed" data-toggle="collapse" href="#faq08">
+          <a class="card-title">¿CÓMO PUEDO REALIZAR EL CAMBIO DE UN PRODUCTO?</a>
+        </div>
+        <div id="faq08" class="card-body collapse" data-parent="#accordion" >
+          <p>Si desea cambiar el producto recibido debe mantenerlo en perfectas condiciones, con su embalaje original, etiquetas y ticket de compra. Dentro de los 30 días de efectuada la compra puede dirigirse a nuestra sucursal (sujeto a disponibilidad de stock) o mandar un email a ventas@dragonmarket.com.ar indicando el número de pedido. El costo del envío a domicilio por cambio corre por cuenta y cargo del cliente.
+          </p>
+        </div>
+
+        <div class="card-header collapsed" data-toggle="collapse" href="#faq09">
+          <a class="card-title">¿TENGO QUE REGISTRARME ANTES DE COMPRAR?</a>
+        </div>
+        <div id="faq09" class="card-body collapse" data-parent="#accordion" >
+          <p>No es necesario, una vez seleccionado y agregado el producto al carrito de compras deberas cargar los datos de entrega, contacto y medio de pago. Luego recibirás un email con la confirmación de tu pedido.
+          </p>
+        </div>
+
+        <div class="card-header collapsed" data-toggle="collapse" href="#faq10">
+          <a class="card-title">¿CÓMO PUEDO ACCEDER A MI CEUNTA?</a>
+        </div>
+        <div id="faq10" class="card-body collapse" data-parent="#accordion" >
+          <p>Para ingresar a tu cuenta, deberás ingresar en www.dragonmarket.com.ar y hacer click en el botón Ingreso / Registro, ubicado en el margen superior izquierdo.
+          </p>
+        </div>
+
+        <div class="card-header collapsed" data-toggle="collapse" href="#faq11">
+          <a class="card-title">¿CÓMO RECIBO MI FACTURA?</a>
+        </div>
+        <div id="faq11" class="card-body collapse" data-parent="#accordion" >
+          <p>Tu factura será enviada por correo electrónico y será enviada desde la casilla: ventas@dragonmarket.com.ar
+          </p>
+        </div>
+
+        <div class="card-header collapsed" data-toggle="collapse" href="#faq12">
+          <a class="card-title">CÓDIGOS PROMOCIONALES</a>
+        </div>
+        <div id="faq12" class="card-body collapse" data-parent="#accordion" >
+          <p>Los códigos promocionales no se aplican a los productos rebajados. Si has devuelto un pedido en el que se ha utilizado un código promocional, el valor de dicho código no será reembolsado. Los códigos promocionales solo son válidos durante un tiempo determinado.
+          </p>
+        </div>
+      </div>
     </div>
   </div>
-    <!-- Cierro container FAQ -->
+  <!-- Cierro container FAQ -->
 
   <!-- FOOTER -->
   <footer>
-    <div class="container-fluid">
-      <div class="row">
-
-        <div class="cajasFooter col-sm-12 col-md-4">
-          <h6 class="contenidoAuto">ventas@dragonmarket.com.ar</h6>
-          <h6 class="contenidoAuto">(011) 4666-3333</h6>
-          <h6 class="contenidoAuto">Av. Elcano 2121 - C.A.B.A.</h6>
+      <div class="cajasFooter col-sm-12 col-md-4">
+        <div>
+          <h6>ventas@dragonmarket.com.ar</h6>
+          <h6>(011) 4666-3333</h6>
+          <h6>Av. Elcano 2121 - C.A.B.A.</h6>
         </div>
-
-        <div class="cajasFooter col-sm-12 col-md-4">
-          <h6 class="contenido">www.dragonmarket.com.ar</h6>
+      </div>
+      <div class="cajasFooter col-sm-12 col-md-4">
+        <div>
+          <h6>www.dragonmarket.com.ar</h6>
         </div>
-
-        <div class="cajasFooter col-sm-12 col-md-4">
-          <h6 class="contenidoAuto">Encontranos en</h6>
-
+      </div>
+      <div class="cajasFooter col-sm-12 col-md-4">
+        <div>
+          <h6>Encontranos en</h6>
           <div class="redesLogos">
             <a href="http://facebook.com" target="_blank"><img src="images/icon_fb.png" alt=""></a>
-
             <a href="http://twitter.com" target="_blank"><img src="images/icon_tw.png" alt=""></a>
-
             <a href="http://instagram.com" target="_blank"><img src="images/icon_ig.png" alt=""></a>
-
           </div>
         </div>
-
       </div>
-      <!--  Cierro row del footer -->
-    </div>
-    <!-- Cierro container-fluid del footer -->
   </footer>
-  </body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</body>
 </html>
